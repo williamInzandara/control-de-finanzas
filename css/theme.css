@@ -1,0 +1,46 @@
+/* ============================================================
+   theme.css — Dark / Light Mode Toggle Button
+   FinanceTrack · Proyecto de Portafolio
+   ============================================================ */
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 24px;
+  z-index: 999;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border-active);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+/* ── Icon Animations ──────────────────────────────────────── */
+.theme-toggle svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  transition: opacity 0.25s ease, transform 0.3s ease;
+}
+
+/* Dark mode: show moon, hide sun */
+.icon-moon { opacity: 1;  transform: rotate(0deg); }
+.icon-sun  { opacity: 0;  transform: rotate(90deg) scale(0.6); }
+
+/* Light mode: hide moon, show sun */
+:root.light .icon-moon { opacity: 0;  transform: rotate(-90deg) scale(0.6); }
+:root.light .icon-sun  { opacity: 1;  transform: rotate(0deg); }

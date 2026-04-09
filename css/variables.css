@@ -1,0 +1,78 @@
+/* ============================================================
+   variables.css — Design Tokens
+   FinanceTrack · Proyecto de Portafolio
+   ============================================================ */
+
+/* ── Dark Mode (default) ──────────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --bg-primary:    #0A0D14;
+  --bg-secondary:  #111520;
+  --bg-card:       #161C2D;
+  --bg-input:      #1C2337;
+
+  /* Borders */
+  --border:        rgba(255, 255, 255, 0.07);
+  --border-active: rgba(212, 175, 100, 0.4);
+
+  /* Brand — Gold */
+  --gold:       #D4AF64;
+  --gold-light: #EDD48A;
+  --gold-dim:   rgba(212, 175, 100, 0.15);
+
+  /* Semantic — Income */
+  --income-color: #4ECBA9;
+  --income-dim:   rgba(78, 203, 169, 0.12);
+
+  /* Semantic — Expense */
+  --expense-color: #E07070;
+  --expense-dim:   rgba(224, 112, 112, 0.12);
+
+  /* Text */
+  --text-primary:   #F2EDE4;
+  --text-secondary: rgba(242, 237, 228, 0.55);
+  --text-muted:     rgba(242, 237, 228, 0.30);
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-mono:    'DM Mono', monospace;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+
+  /* Shadows */
+  --shadow:     0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-sm:  0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ── Light Mode ───────────────────────────────────────────── */
+:root.light {
+  --bg-primary:    #F4F2EE;
+  --bg-secondary:  #ECEAE5;
+  --bg-card:       #FFFFFF;
+  --bg-input:      #F0EDE8;
+
+  --border:        rgba(0, 0, 0, 0.08);
+  --border-active: rgba(160, 120, 40, 0.4);
+
+  --gold:       #9A6F1E;
+  --gold-light: #B8892A;
+  --gold-dim:   rgba(154, 111, 30, 0.10);
+
+  --income-color: #1A8F6F;
+  --income-dim:   rgba(26, 143, 111, 0.10);
+
+  --expense-color: #C04040;
+  --expense-dim:   rgba(192, 64, 64, 0.10);
+
+  --text-primary:   #1A1814;
+  --text-secondary: rgba(26, 24, 20, 0.60);
+  --text-muted:     rgba(26, 24, 20, 0.35);
+
+  --shadow:    0 4px 24px rgba(0, 0, 0, 0.10);
+  --shadow-sm: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
