@@ -29,4 +29,8 @@ Un rastreador de finanzas personales con soporte para ingresos, gastos, categor�
 - ✅ Notificaciones toast
 - ✅ Diseño responsivo (tablet y móvil)
 
+[🚀 Ver Demo en Vivo](https://control-de-finanzas.vercel.app)
+...
+**[🔗 Ver Demo en Vivo →](https://control-de-finanzas.vercel.app)**
+
 
